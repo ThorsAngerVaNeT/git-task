@@ -17,6 +17,7 @@
 }
 
 .link {
+  width: 285px;
   position: relative;
   border: none;
   background: transparent;
@@ -27,6 +28,7 @@
   user-select: none;
   touch-action: manipulation;
   text-decoration: none;
+  text-align: center;
 }
 
 .shadow {
