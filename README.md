@@ -37,8 +37,8 @@ Deployed page should be like in [demo](https://rss-git-task.netlify.app) and all
 
 ## Task 
 1) `bullseye-game` branch  
-  1.1) Rephrase `6nca2b12` commit, replace `feat` with `docs`.  
-  1.2) Split `acd5804b` commit to 3 commits for each file (`index.html`, `style.css`, `script.js`). They should be in place of `acd5804b` commit.
+  1.1) Rephrase `6bca2b12` commit, replace `feat` with `docs`.  
+  1.2) Split `996a7906` commit to 3 commits for each file (`index.html`, `style.css`, `script.js`). They should be in place of `996a7906` commit.
   1.3) Merge `bullseye-game` branch to `develop` branch with creation of a merge commit.
 
 2) `cub-n-pup-game` branch  
