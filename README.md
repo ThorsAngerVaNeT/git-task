@@ -41,7 +41,7 @@ You task is to manipulate branches and commits like it described in [Task](#task
   1.3) Merge `bullseye-game` branch to `develop` branch with creation of a merge commit.
 
 2) `cub-n-pup-game` branch  
-  2.1) Merge 3 commits (`3cba260d`, `e4630d3d`, `1870aa2d`) into 1 commit.  
+  2.1) Merge 3 commits (`3cba260d`, `e4630d3d`, `1870aa2d`) into 1 commit in place of them.  
   2.2) Merge **squashed** `cub-n-pup-game` branch to `develop` branch.
 
 3) `menja` branch  
@@ -53,3 +53,28 @@ You task is to manipulate branches and commits like it described in [Task](#task
 
 5) `develop` branch  
   5.1) Setting up deployment to GH Pages from `develop` branch.
+
+## Scoring
+Maximum - 45 points
+
+### Basic Scope
+- `bullseye-game` branch - total 15 points
+  - there is no `feat(bullseye): add license and readme` commit and there is `docs(bullseye): add license and readme` - +5 points
+  - there is no `feat(bullseye): add game` (`acd5804b`) and there are 3 new commits in place of it for each file (`index.html`, `style.css`, `script.js`) - +5 points
+  - `bullseye-game` branch merged to `develop` branch with created merge commit - +5 points
+- `cub-n-pup-game` branch - total 10 points
+  - there are no `3cba260d`, `e4630d3d`, `1870aa2d` commits and there is a new commit contains them and placed in place of them - +5 points
+  - **squashed** `cub-n-pup-game` branch merged to `develop` branch, there is a squashed commit - +5 points
+- `menja` branch - total 10 points
+  - there are 4 commits in following order (from oldest to newest) - +5 points:
+    1) `docs(menja): add license and readme`
+    2) `feat(menja): add game files`
+    3) `feat(menja): add link to game in main page`
+    4) `feat(menja): update main page style - add text-align center`
+  - `menja` branch rebased into `develop` branch - +5 points
+- `link-new-style` branch - total 5 points
+  - all commits cherry-picked to `develop` branch with references to original commits - + 5 points
+- there is a deployment at GH Pages - + 5 points
+
+### Penalties
+- there is a PR to [original repository](https://github.com/ThorsAngerVaNeT/git-task) - -20 points
