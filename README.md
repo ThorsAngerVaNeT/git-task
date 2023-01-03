@@ -22,6 +22,18 @@
 
 ---
 
+## General Task Description
+You have repository with multiple branches:  
+  - `develop` - branch that holds actual state of our main page  
+  - `main-page-base` - branch that holds initial design of main page and already have been merged to `develop` branch  
+  - multiple feature branches:
+    - `bullseye-game` - branch with 4 commits of Bullseye Game by Elliot Geno
+    - `cub-n-pup-game` - branch with 6 commits of Cub n Pup Game by Dave DeSandro
+    - `menja` - branch with 4 commits of Menja Game by Caleb Miller
+    - `link-new-style` - branch with 4 commits of new style of main page
+
+You task is to manipulate branches and commits like it described in [Task](#task) and if task will be implemented correctly you will have page like in [demo](https://rss-git-task.netlify.app) and all games will work correctly too.
+
 ## `bullseye-game` branch
 1) Rephrase `6nca2b12` commit, replace `feat` with `docs`
 2) Split `acd5804b` commit to 3 commits for each file
