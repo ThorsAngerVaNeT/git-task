@@ -12,7 +12,7 @@
 ---
 
 ## Submit to [RS App](https://app.rs.school)
-1. Create PR from `develop` branch to `main` branch, ignore message `Can’t automatically merge`
+1. Create PR from **your** `develop` branch to **your** `main` branch, ignore message `Can’t automatically merge`
 2. Describe PR like [here](https://docs.app.rs.school/#/platform/pull-request-review-process?id=description-example)
 2. Open [RS App](https://app.rs.school) and login
 3. Go to submit task page
