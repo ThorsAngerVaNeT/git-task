@@ -32,7 +32,8 @@ You have repository with multiple branches:
     - `menja` - branch with 4 commits of Menja Game by Caleb Miller
     - `link-new-style` - branch with 4 commits of new style of main page
 
-You task is to manipulate branches and commits like it described in [Task](#task) and if task will be implemented correctly you will have page like in [demo](https://rss-git-task.netlify.app) and all games will work correctly too.
+You task is to manipulate branches and commits like it described in [Task](#task).
+Deployed page should be like in [demo](https://rss-git-task.netlify.app) and all games should work correctly too.
 
 ## Task 
 1) `bullseye-game` branch  
