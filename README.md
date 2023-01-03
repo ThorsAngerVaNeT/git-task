@@ -1,5 +1,27 @@
 # git-task
 
+⚠️ DO NOT SUBMIT PULL REQUESTS TO THIS REPO ⚠️
+
+---
+
+## Prerequisites
+1. Fork this repository: https://github.com/ThorsAngerVaNeT/git-task
+2. Clone your newly created repo: https://github.com/<%your_github_username%>/git-task/  
+3. Go to folder `git-task`
+
+---
+
+## Submit to [RS App](https://app.rs.school)
+1. Create PR from `develop` branch to `main` branch, ignore message `Can’t automatically merge`
+2. Describe PR like [here](https://docs.app.rs.school/#/platform/pull-request-review-process?id=description-example)
+2. Open [RS App](https://app.rs.school) and login
+3. Go to submit task page
+4. Select your task (Git Task)
+5. Input link to your PR
+6. Press the submit button and enjoy
+
+---
+
 ## `bullseye-game` branch
 1) Rephrase `6nca2b12` commit, replace `feat` with `docs`
 2) Split `acd5804b` commit to 3 commits for each file
