@@ -65,23 +65,23 @@ Maximum - 45 points
 
 ### Basic Scope
 - `bullseye-game` branch - **total 15 points**
-  - there is no `feat(bullseye): add license and readme` commit and there is `docs(bullseye): add license and readme` - **+5 points**
+  - there is no `feat(bullseye): add license and readme` commit and there is `docs(bullseye): add license and readme` commit - **+5 points**
   - there is no `feat(bullseye): add game` and there are 3 new commits in place of it for each file (`index.html`, `style.css`, `script.js`) - **+5 points**
   - `bullseye-game` branch merged to `develop` branch with created merge commit - **+5 points**
 - `cub-n-pup-game` branch - **total 10 points**
   - there are no `feat(cub-n-pup): add index.html`, `feat(cub-n-pup): add script.js`, `feat(cub-n-pup): add style.css` commits and there is a new commit contains them and placed in place of them - **+5 points**
-  - **squashed** `cub-n-pup-game` branch merged to `develop` branch, there is a squashed commit - **+5 points**
+  - **squashed** `cub-n-pup-game` branch was merged to `develop` branch, there is a squashed commit - **+5 points**
 - `menja` branch - **total 10 points**
-  - there are 4 commits in following order (from oldest to newest) - **+5 points**:
+  - there are 4 commits in following order (from the oldest to the newest) - **+5 points**:
     ```
     1) `docs(menja): add license and readme`
     2) `feat(menja): add game files`
     3) `feat(menja): add link to game in main page`
     4) `feat(menja): update main page style - add text-align center`
     ```
-  - `menja` branch rebased into `develop` branch - **+5 points**
+  - `menja` branch was rebased into `develop` branch - **+5 points**
 - `link-new-style` branch - **total 5 points**
-  - all commits cherry-picked to `develop` branch with references to original commits - **+5 points**
+  - all commits were cherry-picked to `develop` branch with references to original commits - **+5 points**
 - there is a deployment at GH Pages - **+5 points**
 
 ### Penalties
