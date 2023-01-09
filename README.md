@@ -44,8 +44,8 @@ The deployed page should be like in [the demo](https://rss-git-task.netlify.app)
 ## Task 
 1) `bullseye-game` branch  
   1.1) Replace commit prefix `feat` with `docs` in `feat(bullseye): add license and readme` commit title.  
-  1.2) Split `feat(bullseye): add game` commit to 3 commits for each file (`index.html`, `style.css`, `script.js`). They should be in place of the old commit, which means commits should be in the following order (from the oldest to the newest):  
-  ```
+  1.2) Split `feat(bullseye): add game` commit to 3 commits for each file (`index.html`, `style.css`, `script.js`). They should be in place of the old commit, which means commits should be in the following order (from the oldest to the newest): 
+    ```
     1. docs(bullseye): add license and readme
     2. feat(bullseye): add index.html
     3. feat(bullseye): add style.css
@@ -53,30 +53,30 @@ The deployed page should be like in [the demo](https://rss-git-task.netlify.app)
     5. feat(bullseye): add link to game in main page
     6. feat(bullseye): add external dependencies as local files
     7. feat(bullseye): update main page style
-  ```
-  The #2-4 commit titles could vary.
+    ```
+    The #2-4 commit titles could vary.  
   1.3) Merge the `bullseye-game` branch into the `develop` branch with the creation of a merge commit.
 
 2) `cub-n-pup-game` branch  
   2.1) Merge 3 commits (`feat(cub-n-pup): add index.html`, `feat(cub-n-pup): add script.js`, `feat(cub-n-pup): add style.css`) into 1 commit in place of them, commits should be in the following order (from the oldest to the newest):  
-  ```
+    ```
     1. docs(cub-n-pup): add license and readme
     2. feat(cub-n-pup): add cub-n-pup game sources
     3. feat(cub-n-pup): add link to game in main page
     4. feat(cub-n-pup): update main page style - specify width
-  ```  
-  The #2 commit title could vary.
+    ```
+    The #2 commit title could vary.  
   2.2) Merge **squashed** `cub-n-pup-game` branch to `develop` branch.
 
 3) `menja` branch  
   3.1) Reorder commits of the branch to reverse order, commits should be in the following order (from the oldest to the newest):  
-  ```
+    ```
     1. docs(menja): add license and readme
     2. feat(menja): add game files
     3. feat(menja): add link to game in main page
     4. feat(menja): update main page style - add text-align center
-  ```    
-  3.2) Rebase `menja` branch into `develop`.
+    ```
+    3.2) Rebase `menja` branch into `develop`.
   
 4) `link-new-style` branch  
   4.1) Cherry-pick all commits from the `link-new-style` branch **with** references to original commits** to `develop` branch.
