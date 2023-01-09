@@ -52,6 +52,7 @@ The deployed page should be like in [the demo](https://rss-git-task.netlify.app)
     5. feat(bullseye): add link to game in main page
     6. feat(bullseye): add external dependencies as local files
   ```
+  The #2-4 commit titles could vary.
   1.3) Merge the `bullseye-game` branch into the `develop` branch with the creation of a merge commit.
 
 2) `cub-n-pup-game` branch  
@@ -62,6 +63,7 @@ The deployed page should be like in [the demo](https://rss-git-task.netlify.app)
     3. feat(cub-n-pup): add link to game in main page
     4. feat(cub-n-pup): update main page style - specify width
   ```  
+  The #2 commit title could vary.
   2.2) Merge **squashed** `cub-n-pup-game` branch to `develop` branch.
 
 3) `menja` branch  
