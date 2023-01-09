@@ -29,7 +29,7 @@ You have a repository with multiple branches:
   - `develop` - branch that holds an actual state of our main page  
   - `main-page-base` - branch that holds an initial design of the main page and already has been merged to the `develop` branch  
   - multiple feature branches:
-    - `bullseye-game` - branch with 4 commits of Bullseye Game by Elliot Geno
+    - `bullseye-game` - branch with 5 commits of Bullseye Game by Elliot Geno
     - `cub-n-pup-game` - branch with 6 commits of Cub n Pup Game by Dave DeSandro
     - `menja` - branch with 4 commits of Menja Game by Caleb Miller
     - `link-new-style` - branch with 4 commits of the new style of the main page
@@ -51,6 +51,7 @@ The deployed page should be like in [the demo](https://rss-git-task.netlify.app)
     4. feat(bullseye): add script.js
     5. feat(bullseye): add link to game in main page
     6. feat(bullseye): add external dependencies as local files
+    7. feat(bullseye): update main page style
   ```
   The #2-4 commit titles could vary.
   1.3) Merge the `bullseye-game` branch into the `develop` branch with the creation of a merge commit.
