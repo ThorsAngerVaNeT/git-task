@@ -34,8 +34,9 @@ You have a repository with multiple branches:
     - `menja` - branch with 4 commits of Menja Game by Caleb Miller
     - `link-new-style` - branch with 4 commits of the new style of the main page
 
-Your task is to manipulate branches and commits like it is described in [Task](#task).
-Resolving conflicts while merging/rebasing is a part of this task.
+Your task is to manipulate branches and commits like it is described in [Task](#task).  
+Resolving conflicts while merging/rebasing is a part of this task.  
+**The preferable way** of solving the task is by using Git CLI, but you could also use `Git Graph` and `Git Lense` VSCode extensions to visualize branches and so on.  
 The deployed page should be like in [the demo](https://rss-git-task.netlify.app) and all games should work correctly too.
 
 ---
