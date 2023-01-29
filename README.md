@@ -8,7 +8,7 @@
 1. Fork this repository with all branches: https://github.com/ThorsAngerVaNeT/git-task. Don't forget to uncheck `Copy the master branch only` checkbox.
 2. Clone your newly created repo: https://github.com/<%your_github_username%>/git-task/  
 3. Go to folder `git-task`
-4. Suggestion: set up VSCode as your Git editor - `git config --global core.editor “code --wait”`
+4. Suggestion: set up VSCode as your Git editor - `git config --global core.editor "code --wait"`
 
 ---
 
