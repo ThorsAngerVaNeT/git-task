@@ -79,7 +79,7 @@ The deployed page should be like in [the demo](https://rss-git-task.netlify.app)
     3.2) Rebase `menja` branch into `develop`.
   
 4) `link-new-style` branch  
-  4.1) Cherry-pick all commits from the `link-new-style` branch **with** references to original commits** to `develop` branch.
+  4.1) Cherry-pick all commits from the `link-new-style` branch **with references to original commits** to `develop` branch.
 
 5) `develop` branch  
   5.1) Set up deployment to GH Pages from the `develop` branch.
